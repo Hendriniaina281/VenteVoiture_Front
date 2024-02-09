@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/annonce" element={<Annonce/>} />
         <Route path="/favoris" element={<Favorite/>} />  
         <Route path="/recherche" element={<Search/>} />    
-        <Route path="/chat/:prop" element={<Chat/>} />   
+        <Route path="/chat" element={<Chat/>} />   
         <Route path="/connect" element={<Connecting/>} />  
         <Route path="/result" element={<ResultatRecherche/>} />    
       </Routes>
