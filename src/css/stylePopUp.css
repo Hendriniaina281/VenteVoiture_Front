@@ -1,0 +1,10 @@
+.details button{
+    padding: 8px 15px;
+    background: #bb4b4b;
+    color: #ececec;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 75px;
+    margin-top: 15px;
+  }

@@ -1,0 +1,123 @@
+.error{
+  font-size: 40px;
+  height: 250px;
+  margin-top: 25px;
+}
+.annonce {
+    padding: 30px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .annonce .cardFavoris {
+    position: relative;
+    max-width: 300px;
+    height: 175px;
+    background-color: #d0d1d1;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+  }
+  
+  .cardFavoris:hover {
+    height: 370px;
+    background-color: #ffffff;
+  }
+  
+  .annonce .cardFavoris .image {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -40%;
+    left: 8px;
+    z-index: 1;
+  }
+  
+  .annonce .cardFavoris .image img {
+    width: 100%;
+      aspect-ratio: 16/9;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+  
+  .annonce .cardFavoris .content {
+    position: relative;
+    top: -140px;
+    padding: 10px 15px;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .cardFavoris:hover .content {
+    margin-top: 30px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+  
+  .contact button{
+    padding: 8px 15px;
+    background: #1e1d1f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px; 
+  }
+  
+  .detail button{
+    padding: 8px 15px;
+    background: #ca5a5a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 5px;
+  
+  }
+  
+  .cardFavoris .arrow {
+    display: flex;
+    height: 550px;
+    width: 150px;
+    margin-top: 15px;
+  }
+  
+  .cardFavoris .arrow .cardFavoris-icon {
+    font-size: 30px; 
+    color: black; 
+  }
+  
+  .cardFavoris.favorite .arrow #test {
+    color:#ca5a5a;
+  }
+  
+  .cardFavoris .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    z-index: 2;
+    display: none; 
+  }
+  
+  .cardFavoris.favorite .popup {
+    display: block;
+  }
+  
+  
+  
+  
+  
+  
+  

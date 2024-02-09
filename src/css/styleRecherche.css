@@ -1,0 +1,47 @@
+.search {
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 25px;
+  }
+  
+  #survey-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  .form-input p {
+    margin: 0;
+    font-weight: bold;
+    font-family: math;
+    color: cadetblue;
+  }
+  
+  .form-input-size {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  #submit {
+    background-color: #7c7f7f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  
+  #submit:hover {
+    background-color: cadetblue;
+  }
+  

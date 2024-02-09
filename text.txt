@@ -1,0 +1,13 @@
+<ResultSearching titre={listResult.titre} src="https://firebasestorage.googleapis.com/v0/b/uploading-c8353.appspot.com/o/images%2Fchristooj.JPG?alt=media&token=c9bea559-6955-4831-a5c7-17aff02d406d" id={listResult.id} categorie={listResult.categorie} prop={listResult.prop}/>
+
+https://firebasestorage.googleapis.com/v0/b/uploading-c8353.appspot.com/o/images%2Fchristooj.JPG?alt=media&token=c9bea559-6955-4831-a5c7-17aff02d406d
+https://firebasestorage.googleapis.com/v0/b/uploading-c8353.appspot.com/o/images/christooj.JPG?alt=media&token=c9bea559-6955-4831-a5c7-17aff02d406d
+
+http://localhost:3000/result?test=%5B%7B%22id%22%3A%2265c0f0a9b0b9ed0fbe2cc741%22%2C%22titre%22%3A%22titre%22%2C%22description%22%3A%22desc%22%2C%22categorie%22%3A%22Sedan%22%2C%22marque%22%3A%22Toyota%22%2C%22prix%22%3A800%2C%22dateAjout%22%3A%222024-02-12T17%3A28%3A00.000%2B00%3A00%22%2C%22dateVente%22%3Anull%2C%22status%22%3A0%2C%22image%22%3A%22https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fuploading-c8353.appspot.com%2Fo%2Fimages%252Fchristooj.JPG%3Falt%3Dmedia%26token%3Dc9bea559-6955-4831-a5c7-17aff02d406d%22%2C%22prop%22%3A1%2C%22favoris%22%3A%5B%7B%22iduser%22%3A2%7D%5D%2C%22estValide%22%3A1%7D%5D
+
+
+http://localhost:3000/result?data=[{%22id%22:%2265c0f0a9b0b9ed0fbe2cc741%22,%22titre%22:%22titre%22,%22description%22:%22desc%22,%22categorie%22:%22Sedan%22,%22marque%22:%22Toyota%22,%22prix%22:800,%22dateAjout%22:%222024-02-12T17:28:00.000+00:00%22,%22dateVente%22:null,%22status%22:0,%22image%22:%22https://firebasestorage.googleapis.com/v0/b/uploading-c8353.appspot.com/o/images%2Fchristooj.JPG?alt=media&token=c9bea559-6955-4831-a5c7-17aff02d406d%22,%22prop%22:1,%22favoris%22:[{%22iduser%22:2}],%22estValide%22:1}]
+
+
+
+http://localhost:3000/result?data=[{%22id%22:%2265c0f0a9b0b9ed0fbe2cc741%22,%22titre%22:%22titre%22,%22description%22:%22desc%22,%22categorie%22:%22Sedan%22,%22marque%22:%22Toyota%22,%22prix%22:800,%22dateAjout%22:%222024-02-12T17:28:00.000+00:00%22,%22dateVente%22:null,%22status%22:0,%22image%22:%22https://firebasestorage.googleapis.com/v0/b/uploading-c8353.appspot.com/o/images%2Fchristooj.JPG?alt=media&token=c9bea559-6955-4831-a5c7-17aff02d406d%22,%22prop%22:1,%22favoris%22:[{%22iduser%22:2}],%22estValide%22:1}]
