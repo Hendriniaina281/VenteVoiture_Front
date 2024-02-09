@@ -6,7 +6,7 @@ import Contact from './Login';
 
 function ListFavoris(props) {
     return (
-        <div>
+        <div className='card'>
           <div className='image'>
             <img src={props.src} alt='Voiture' />
           </div>
